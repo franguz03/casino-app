@@ -1,0 +1,65 @@
+.mines-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.mines-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.celda {
+  width: 60px;
+  height: 60px;
+  background-color: #2c2c2c;
+  border-radius: 8px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.2s;
+}
+
+.celda:hover {
+  background-color: #444;
+}
+
+.celda.revelado {
+  background-color: #1c1c1c;
+  cursor: default;
+}
+
+.resultado {
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #fdd835;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.apostar {
+  margin: 20px 0;
+}
+
+.apostar input {
+  margin-left: 10px;
+  width: 80px;
+  padding: 5px;
+}
+
+.mensaje {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
