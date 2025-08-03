@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/franguz03/casino-app/static/css/main.32647b1f.css",
-    "main.js": "/franguz03/casino-app/static/js/main.49a8657c.js",
-    "static/js/453.6bf38ad6.chunk.js": "/franguz03/casino-app/static/js/453.6bf38ad6.chunk.js",
-    "index.html": "/franguz03/casino-app/index.html",
-    "main.32647b1f.css.map": "/franguz03/casino-app/static/css/main.32647b1f.css.map",
-    "main.49a8657c.js.map": "/franguz03/casino-app/static/js/main.49a8657c.js.map",
-    "453.6bf38ad6.chunk.js.map": "/franguz03/casino-app/static/js/453.6bf38ad6.chunk.js.map"
+    "main.css": "/casino-app/static/css/main.32647b1f.css",
+    "main.js": "/casino-app/static/js/main.973b677b.js",
+    "static/js/453.6bf38ad6.chunk.js": "/casino-app/static/js/453.6bf38ad6.chunk.js",
+    "index.html": "/casino-app/index.html",
+    "main.32647b1f.css.map": "/casino-app/static/css/main.32647b1f.css.map",
+    "main.973b677b.js.map": "/casino-app/static/js/main.973b677b.js.map",
+    "453.6bf38ad6.chunk.js.map": "/casino-app/static/js/453.6bf38ad6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32647b1f.css",
-    "static/js/main.49a8657c.js"
+    "static/js/main.973b677b.js"
   ]
 }
