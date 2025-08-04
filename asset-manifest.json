@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/casino-app/static/css/main.c49fd186.css",
-    "main.js": "/casino-app/static/js/main.86f08483.js",
+    "main.css": "/casino-app/static/css/main.a4627b96.css",
+    "main.js": "/casino-app/static/js/main.f48c2563.js",
     "static/js/453.6bf38ad6.chunk.js": "/casino-app/static/js/453.6bf38ad6.chunk.js",
     "static/media/register.png": "/casino-app/static/media/register.d0d4ed4fda4d88e0ba92.png",
     "static/media/torre.png": "/casino-app/static/media/torre.298ad9b887a936ff7907.png",
@@ -18,12 +18,12 @@
     "static/media/2x.png": "/casino-app/static/media/2x.dbe26a046ac9f96acd12.png",
     "static/media/zuluSlot.png": "/casino-app/static/media/zuluSlot.dec8ab10303a49bb6b50.png",
     "index.html": "/casino-app/index.html",
-    "main.c49fd186.css.map": "/casino-app/static/css/main.c49fd186.css.map",
-    "main.86f08483.js.map": "/casino-app/static/js/main.86f08483.js.map",
+    "main.a4627b96.css.map": "/casino-app/static/css/main.a4627b96.css.map",
+    "main.f48c2563.js.map": "/casino-app/static/js/main.f48c2563.js.map",
     "453.6bf38ad6.chunk.js.map": "/casino-app/static/js/453.6bf38ad6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c49fd186.css",
-    "static/js/main.86f08483.js"
+    "static/css/main.a4627b96.css",
+    "static/js/main.f48c2563.js"
   ]
 }
