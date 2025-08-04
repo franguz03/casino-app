@@ -1,6 +1,13 @@
 import React, { useState } from 'react';
 import './App.css';
 import MinesGame from './components/MinesGame';
+import naveIcon from './assets/images/nave.png';
+import doubleIcon from './assets/images/2x.png';
+import minaIcon from './assets/images/mina.png';
+import dadoIcon from './assets/images/dado.png';
+import torreIcon from './assets/images/torre.png';
+
+
 
 const App = () => {
   const [activeView, setActiveView] = useState('home');
@@ -9,18 +16,34 @@ const App = () => {
   return (
     <div className="app">
       <aside className="sidebar">
-        <div className="logo">👑</div>
+        <div className="logo"></div>
         <button className="bonus-button">Gana ahora $10 gratis</button>
 
-        <nav className="menu">
-          <ul>
-            <li onClick={() => setActiveView('crash')}>Crash</li>
-            <li onClick={() => setActiveView('double')}>Double</li>
-            <li onClick={() => setActiveView('mines')}>Minas</li>
-            <li onClick={() => setActiveView('dice')}>Dados</li>
-            <li onClick={() => setActiveView('tower')}>Torre</li>
-          </ul>
-        </nav>
+<nav className="menu">
+  <ul className="menu-list">
+    <li onClick={() => setActiveView('crash')}>
+      <img src={naveIcon} alt="Crash" />
+      <span>Crash</span>
+    </li>
+    <li onClick={() => setActiveView('double')}>
+      <img src={doubleIcon} alt="Double" />
+      <span>Double</span>
+    </li>
+    <li onClick={() => setActiveView('mines')}>
+      <img src={minaIcon} alt="Minas" />
+      <span>Minas</span>
+    </li>
+    <li onClick={() => setActiveView('dice')}>
+      <img src={dadoIcon} alt="Dados" />
+      <span>Dados</span>
+    </li>
+    <li onClick={() => setActiveView('tower')}>
+      <img src={torreIcon} alt="Torre" />
+      <span>Torre</span>
+    </li>
+  </ul>
+</nav>
+
 
         <div className="promo-card">
           <p>Regístrate y gana ahora</p>
@@ -36,13 +59,18 @@ const App = () => {
 
       <main className="main-content">
         <header className="top-bar">
-          <input className="search" placeholder="Buscar juego..." />
-          <div className="lang-select">ES ▼</div>
-          <div className="auth-buttons">
-            <p>💰 Dinero disponible: <strong>{dinero}</strong></p>
-            <button className="signup">Franco</button>
-          </div>
-        </header>
+  <div className="search-container">
+    <button className="eye-button" />
+    <input className="search" placeholder="Buscar juego..." />
+    
+  </div>
+  <div className="lang-select">ES ▼</div>
+  <div className="auth-buttons">
+    <p>💰 Dinero disponible: <strong>{dinero}</strong></p>
+    <button className="signup">Franco</button>
+  </div>
+</header>
+
 
         {/* Renderizado condicional */}
         {activeView === 'mines' ? (
@@ -53,9 +81,9 @@ const App = () => {
         ) : (
           <>
             <section className="banners">
-              <div className="banner">[banner]</div>
-              <div className="banner">JACKPOT</div>
-              <div className="banner">[banner]</div>
+              <div className="banner"></div>
+              <div className="banner jackpot-banner"></div>
+              <div className="banner"></div>
             </section>
 
             <section className="tabs">
@@ -67,21 +95,21 @@ const App = () => {
             <section className="category">
               <h3>Originales Gnobet</h3>
               <div className="game-grid">
-                <div className="game-card">MINAS</div>
-                <div className="game-card">CRASH</div>
-                <div className="game-card">DOUBLE</div>
+                <div className="game-card minas"></div>
+<div className="game-card crash"></div>
+<div className="game-card double"></div>
               </div>
             </section>
 
             <section className="category">
               <h3>Tragamonedas</h3>
               <div className="game-grid">
-                <div className="game-card">MAJESTIC SAFARI</div>
-                <div className="game-card">FRUIT BLAZE</div>
-                <div className="game-card">16 COINS</div>
-                <div className="game-card">COINS ALKEMOR</div>
-                <div className="game-card">GREEK LEGENDS</div>
-                <div className="game-card">SLOTS</div>
+               
+<div className="game-card fruit-blaze"></div>
+<div className="game-card sixteen-coins"></div>
+<div className="game-card coins-alkemor"></div>
+<div className="game-card coins-alkemor"></div>
+
               </div>
             </section>
           </>
